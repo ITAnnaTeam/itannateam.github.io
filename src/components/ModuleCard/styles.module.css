@@ -1,0 +1,123 @@
+.card {
+  background: var(--white);
+  border-radius: 20px;
+  padding: 36px 36px 32px;
+  position: relative;
+  overflow: hidden;
+  color: var(--dark);
+}
+
+.ghost {
+  position: absolute;
+  top: -12px;
+  right: 8px;
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 130px;
+  font-weight: 700;
+  color: var(--dark);
+  opacity: 0.055;
+  line-height: 1;
+  pointer-events: none;
+  user-select: none;
+  letter-spacing: -0.04em;
+}
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: rgba(11, 183, 241, 0.13);
+  color: #0088bb;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  padding: 4px 12px;
+  border-radius: 100px;
+  margin-bottom: 16px;
+}
+
+.badgeLive {
+  background: rgba(5, 23, 91, 0.08);
+  color: var(--dark);
+}
+
+.liveDot {
+  width: 7px;
+  height: 7px;
+  background: var(--blue);
+  border-radius: 50%;
+  animation: pulse 1.8s infinite;
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50%       { opacity: 0.5; transform: scale(0.7); }
+}
+
+.title {
+  font-family: 'Space Grotesk', sans-serif;
+  font-size: 21px;
+  font-weight: 700;
+  color: var(--dark);
+  line-height: 1.25;
+  margin-bottom: 22px;
+  letter-spacing: -0.01em;
+}
+
+.optionalTag {
+  display: inline-block;
+  background: rgba(5, 23, 91, 0.07);
+  color: rgba(5, 23, 91, 0.45);
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  padding: 2px 8px;
+  border-radius: 4px;
+  vertical-align: middle;
+  margin-left: 8px;
+  position: relative;
+  top: -2px;
+}
+
+.topics {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
+}
+
+.topic {
+  display: flex;
+  align-items: flex-start;
+  gap: 11px;
+}
+
+.topicNum {
+  width: 22px;
+  height: 22px;
+  min-width: 22px;
+  background: var(--blue);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1px;
+}
+
+.topicNum span {
+  font-size: 10px;
+  font-weight: 700;
+  color: var(--dark);
+  line-height: 1;
+}
+
+.topicText {
+  font-size: 14px;
+  color: rgba(5, 23, 91, 0.78);
+  line-height: 1.55;
+  font-weight: 400;
+}

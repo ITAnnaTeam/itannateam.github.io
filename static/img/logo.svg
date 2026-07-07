@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 140 36" width="140" height="36">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@700&amp;display=swap');
+    </style>
+  </defs>
+  <text
+    x="0"
+    y="27"
+    font-family="Space Grotesk, sans-serif"
+    font-weight="700"
+    font-size="28"
+    fill="#FFFFFF"
+    letter-spacing="-0.02em"
+  >IT</text>
+  <text
+    x="36"
+    y="27"
+    font-family="Space Grotesk, sans-serif"
+    font-weight="700"
+    font-size="28"
+    fill="#0BB7F1"
+    letter-spacing="-0.02em"
+  >Anna</text>
+</svg>
