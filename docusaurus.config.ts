@@ -52,6 +52,10 @@ const config: Config = {
     ],
   ],
 
+  plugins: [
+    './plugins/docusaurus-plugin-indexnow',
+  ],
+
   themeConfig: {
     colorMode: {
       defaultMode: 'dark',
