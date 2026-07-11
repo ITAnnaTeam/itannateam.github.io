@@ -10,10 +10,10 @@ const config: Config = {
     v4: true,
   },
 
-  url: 'https://itanna.github.io',
+  url: 'https://itannateam.github.io',
   baseUrl: '/',
-  organizationName: 'itanna',
-  projectName: 'itanna.github.io',
+  organizationName: 'ITAnnaTeam',
+  projectName: 'itannateam.github.io',
   deploymentBranch: 'gh-pages',
   trailingSlash: false,
 

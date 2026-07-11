@@ -1,6 +1,6 @@
 # ITAnna — Docusaurus Site Build Instructions
 
-> **Target:** https://itanna.github.io  
+> **Target:** https://itannateam.github.io  
 > **Framework:** [Docusaurus v3](https://docusaurus.io)  
 > **Agent:** Follow every section in order. Do not skip steps.
 
@@ -74,10 +74,10 @@ const config: Config = {
   tagline: 'AI Engineering for Software Engineers — No ML Background Needed',
   favicon: 'img/favicon.ico',
 
-  url: 'https://itanna.github.io',
+  url: 'https://itannateam.github.io',
   baseUrl: '/',
-  organizationName: 'itanna',   // GitHub org/username
-  projectName: 'itanna.github.io',
+  organizationName: 'ITAnnaTeam',   // GitHub org/username
+  projectName: 'itannateam.github.io',
   deploymentBranch: 'gh-pages',
   trailingSlash: false,
 
@@ -544,9 +544,9 @@ jobs:
 
 ### 9.3 GitHub Repo Settings
 
-In the `itanna/itanna.github.io` repository on GitHub:
+In the `ITAnnaTeam/itannateam.github.io` repository on GitHub:
 - **Settings → Pages → Source:** set to `gh-pages` branch, `/ (root)`
-- The site will be live at `https://itanna.github.io` after the first successful deploy
+- The site will be live at `https://itannateam.github.io` after the first successful deploy
 
 ---
 
@@ -582,4 +582,4 @@ Before committing, verify:
 - [ ] YouTube link opens `https://www.youtube.com/@ITAnnaTeam`
 - [ ] Blog `/blog` route works with seed post
 - [ ] `npm run build` exits 0 with no broken link errors
-- [ ] Deployed URL `https://itanna.github.io` loads correctly
+- [ ] Deployed URL `https://itannateam.github.io` loads correctly

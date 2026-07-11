@@ -3,7 +3,7 @@ const path = require('path');
 const crypto = require('crypto');
 
 // Configuration
-const SITE_URL = 'https://itanna.github.io';
+const SITE_URL = 'https://itannateam.github.io';
 const BING_KEY = '1c89f5c49bdf483b9c02d12eb6deea48';
 const SITEMAP_PATH = path.join(__dirname, '../build/sitemap.xml');
 

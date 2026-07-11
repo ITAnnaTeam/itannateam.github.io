@@ -1,6 +1,6 @@
 # ITAnna — AI Engineering for Software Engineers
 
-A [Docusaurus v3](https://docusaurus.io) static site deployed to [itanna.github.io](https://itanna.github.io).
+A [Docusaurus v3](https://docusaurus.io) static site deployed to [itannateam.github.io](https://itannateam.github.io).
 
 ---
 
@@ -86,10 +86,10 @@ Dark mode is **locked** (`colorMode.disableSwitch: true`). There is no light mod
 
 ## Key Configuration (`docusaurus.config.ts`)
 
-- `url`: `https://itanna.github.io`
+- `url`: `https://itannateam.github.io`
 - `baseUrl`: `/`
-- `organizationName`: `itanna`
-- `projectName`: `itanna.github.io`
+- `organizationName`: `ITAnnaTeam`
+- `projectName`: `itannateam.github.io`
 - `deploymentBranch`: `gh-pages`
 - `docs: false` — the `/docs` route is disabled
 - `colorMode.disableSwitch: true` — dark mode only, no toggle
