@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkitanna=self.webpackChunkitanna||[]).push([["220"],{1912(a){a.exports=JSON.parse('{"blogBasePath":"/blog","blogTitle":"ITAnna Blog","authorsListPath":"/blog/authors"}')}}]);

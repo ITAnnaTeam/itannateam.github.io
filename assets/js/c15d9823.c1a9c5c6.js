@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkitanna=self.webpackChunkitanna||[]).push([["431"],{9328(a){a.exports=JSON.parse('{"metadata":{"permalink":"/blog","page":1,"postsPerPage":9,"totalPages":1,"totalCount":5,"blogDescription":"AI Engineering insights, session notes, and tutorials","blogTitle":"ITAnna Blog"}}')}}]);
