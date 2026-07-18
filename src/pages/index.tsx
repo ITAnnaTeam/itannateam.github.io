@@ -7,12 +7,12 @@ import styles from './index.module.css';
 const MODULES = [
   {
     moduleNum: '01',
-    badge: 'Module 01 · Starting Soon',
+    badge: 'Module 01',
     isLive: true,
     title: 'Foundations\n(No ML Required)',
     topics: [
-      { num: 1, text: 'AI Engineering vs. ML Engineering vs. Data Science — clearing up the confusion' },
-      { num: 2, text: 'How LLMs actually work — tokens, next-token prediction, training vs. inference (no math)' },
+      { num: 1, text: 'AI Engineering vs. ML Engineering— clearing up the confusion, Pattern Recognition Project' },
+      { num: 2, text: 'How LLMs actually work — tokens, next-token prediction, training vs. inference' },
       { num: 3, text: 'Embeddings explained simply — what a vector representation is and why it matters' },
       { num: 4, text: 'Context windows, temperature, and other inference-time knobs' },
     ],
@@ -22,10 +22,10 @@ const MODULES = [
     badge: 'Module 02',
     title: 'Talking to Models',
     topics: [
-      { num: 5,  text: 'Calling an LLM API for the first time — your first "Hello World"' },
-      { num: 6,  text: 'Prompt engineering fundamentals — zero-shot, few-shot, chain-of-thought' },
-      { num: 7,  text: 'Structured outputs and function calling / tool use' },
-      { num: 8,  text: 'System prompts vs. user prompts and message roles' },
+      { num: 5, text: 'Calling an LLM API for the first time — your first "Hello World"' },
+      { num: 6, text: 'Prompt engineering fundamentals — zero-shot, few-shot, chain-of-thought' },
+      { num: 7, text: 'Structured outputs and function calling / tool use' },
+      { num: 8, text: 'System prompts vs. user prompts and message roles' },
     ],
   },
   {
@@ -33,7 +33,7 @@ const MODULES = [
     badge: 'Module 03',
     title: 'Giving LLMs Knowledge & Memory',
     topics: [
-      { num: 9,  text: 'Why LLMs hallucinate and the limits of pure prompting' },
+      { num: 9, text: 'Why LLMs hallucinate and the limits of pure prompting' },
       { num: 10, text: 'RAG from scratch — the core idea before any framework' },
       { num: 11, text: 'Vector databases — what they are and when you need one (Chroma, Pinecone, etc.)' },
       { num: 12, text: 'Chunking strategies and retrieval quality' },
@@ -92,7 +92,7 @@ const WhatsAppIcon = () => (
 
 export default function Home(): JSX.Element {
   return (
-    <Layout title="AI Engineering for Software Engineers" description="No prior ML experience needed. Six modules, 23 topics, real production applications.">
+    <Layout title="AI Engineering 2026" description="No prior ML experience needed. Six modules, 23 topics, real production applications.">
 
       {/* ── HERO ── */}
       <section className={styles.hero}>
@@ -102,8 +102,7 @@ export default function Home(): JSX.Element {
         </div>
 
         <h1 className={styles.heroTitle}>
-          AI Engineering<br />
-          <em>for Software Engineers</em>
+          AI Engineering 2026
         </h1>
 
         <p className={styles.heroSub}>
