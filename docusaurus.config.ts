@@ -10,7 +10,7 @@ const config: Config = {
     v4: true,
   },
 
-  url: 'https://itannateam.github.io',
+  url: 'https://itanna.dev',
   baseUrl: '/',
   organizationName: 'ITAnnaTeam',
   projectName: 'itannateam.github.io',

@@ -30,6 +30,7 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./build
+          cname: itanna.dev
 
       - name: Ping Search Engines (Google/Bing)
         env:
